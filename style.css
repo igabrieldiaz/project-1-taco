@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #ddd3c3;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    color: #2e3335;
+}
+.tacobuttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: auto;
+}
+.tacobuttons div{
+    flex: 50%;
+    padding: 40px;
+}
+img {
+    width: 100%;
+}
+main{
+    width: 100vw;
+}
+.tacobuttons .carnitasbutton img {
+    width: 120%;
+}
+
+.tacobuttons img:hover{
+    color: #628180;
+    opacity: 35%;
+}
+
+.content {
+    width: 45%;
+    margin: auto;
+}
+h1{
+    font-family: 'EB Garamond', serif;
+    font-size: 93pt;
+    color: #bf2e2e;
+    border-bottom: 10px solid #0e918c;
+    border-top: 10px solid #0e918c; 
+}
+.homebutton img {
+    position: sticky;
+    top: 40px;
+    left: 40px;
+    width: 35px;
+    height: 120px;
+}
+
+.homebutton {
+    padding-left: 50px;
+}
+
+.pastorpage {
+    display: flex;
+    justify-content: flex-start;   
+}
+.carnitaspage {
+    display: flex;
+    justify-content: flex-start;
+}
+.fishpage {
+    display: flex;
+    justify-content: flex-start;
+}
+.asadapage {
+    display: flex;
+    justify-content: flex-start;
+}
+.pastorpageimage, .pastorcontent{
+    width: 45%;
+    padding-top: 200px;
+}
+.carnitaspageimage, .carnitascontent {
+    width: 45%;
+    padding-top: 200px;
+}
+.fishpageimage, .fishconent {
+    width: 45%;
+    padding-top: 200px;
+}
+.asadapageimage, .asadacontent {
+    width: 45%;
+    padding-top: 200px;
+}
+
+.asadacontent, .carnitascontent,.fishconent, .pastorcontent {
+    padding-left: 50px;
+}
+
+@keyframes rotation {
+    0% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(3600deg);}
+}
+
+.homebutton img {
+    animation: rotation 3s 3s;
+}
+
+/*
+font-family: 'EB Garamond', serif;
+font-family: 'Roboto', sans-serif;
+*/
